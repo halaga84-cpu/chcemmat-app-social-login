@@ -1,0 +1,38 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://vrbynghjgqbiczweuvel.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZyYnluZ2hqZ3FiaWN6d2V1dmVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2OTcwNTcsImV4cCI6MjA3OTI3MzA1N30.R5F5aGtJLzDfVJMmLFl1r-8xKWCzG4rAGp5Fv5uNpUo",
+    "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZyYnluZ2hqZ3FiaWN6d2V1dmVsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MzY5NzA1NywiZXhwIjoyMDc5MjczMDU3fQ.x90CLFVV_A-9giOLDLxwgMWKLBgy7g3p114eAykaXek",
+    "RESEND_API_KEY": "re_W3Pg6kJR_CQed5PSEnVoUedaQwA7a2H16"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_SUPABASE_URL": "https://vrbynghjgqbiczweuvel.supabase.co",
+      "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZyYnluZ2hqZ3FiaWN6d2V1dmVsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2OTcwNTcsImV4cCI6MjA3OTI3MzA1N30.R5F5aGtJLzDfVJMmLFl1r-8xKWCzG4rAGp5Fv5uNpUo"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

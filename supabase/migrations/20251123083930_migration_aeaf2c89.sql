@@ -1,0 +1,3 @@
+ALTER TABLE public.profiles
+ADD COLUMN IF NOT EXISTS default_language TEXT DEFAULT 'sk',
+ADD COLUMN IF NOT EXISTS show_reservation_name BOOLEAN DEFAULT FALSE;
